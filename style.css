@@ -1,0 +1,92 @@
+   /* Estilos CSS para o jogo */
+   body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F2DE; /* cor do céu */
+}
+
+#game {
+    width: 400px; /* largura do jogo no computador */
+    height: 600px; /* altura do jogo no computador */
+    margin: 0 auto; /* centralizar o jogo na tela */
+    border: 5px solid #E9B384; /* borda ao redor do jogo */
+    background-color: #A1CCD1;
+}
+
+.button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 45%;
+  top: 50%;
+  width: 200px;
+  height: 70px;
+  border-radius: 5%;
+  background-color: rgba(3, 142, 255, 0.897);
+  font-size: 40px;
+  font-family: 'Handjet', cursive;
+  color: white;
+  opacity: 100%;
+}
+
+button {
+  position: absolute; /* posicionar os botões sobre o jogo */
+  bottom: 10px; /* colocar os botões na parte inferior da tela */
+  width: 100px; /* largura dos botões */
+  height: 100px; /* altura dos botões */
+  font-size: 50px; /* tamanho dos ícones dos botões */
+  opacity: 45%;
+  border-radius: 50%; /* fazer os botões redondos */
+  background-color: #7C9D96; /* cor de fundo dos botões */
+  border: none; /* sem borda */
+  outline: none; /* sem contorno */
+  user-select: none; /*
+}
+
+#left-button {
+  left: 10px; /* colocar o botão esquerdo na esquerda da tela */
+}
+
+#right-button {
+  right: 10px; /* colocar o botão direito na direita da tela */
+}
+
+@media (min-width: 601px) {
+  /* Esconder os botões no computador */
+  button {
+      display: none;
+  }
+}
+
+@media (max-width: 400px) {
+    /* Estilos CSS para o jogo no celular */
+    #game {
+        width: 100vw; /* largura do jogo igual à largura da tela */
+        height: 100vh; /* altura do jogo igual à altura da tela */
+        border: none; /* sem borda */
+    }
+
+    .button{
+      position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 25%;
+  top: 40%;
+  width: 200px;
+  height: 70px;
+  border-radius: 5%;
+  background-color: rgba(3, 142, 255, 0.897);
+  font-size: 40px;
+  font-family: 'Handjet', cursive;
+  color: white;
+  opacity: 100%;
+    }
+}
+
+
+canvas {
+    width: 100%; /* largura do canvas igual à largura do jogo */
+    height: 100%; /* altura do canvas igual à altura do jogo */
+}

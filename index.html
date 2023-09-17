@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anxiety Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <audio src="./sons/score.wav" id = "score1"></audio>
+    <audio src="./sons/score2.wav" id = "score2"></audio>
+    <audio src="./sons/music.m4a" id = "music"></audio>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game"> <!-- div que contém o jogo -->
+        <canvas id="canvas" class="textura"></canvas> <!-- canvas onde o jogo é desenhado -->
+        <button class="button">Start Game</button>
+    </div>
+
+    <button id="left-button">⬅️</button>
+    <button id="right-button">➡️</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
